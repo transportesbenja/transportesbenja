@@ -1,0 +1,43 @@
+﻿.footer {
+    /*position: fixed;*/
+    font-family: Cambria, 'Arial Narrow', 'Arial', 'sans-serif';
+    padding-right:1%;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: right;
+    padding-top:8px;
+}
+
+.brand-img {
+    max-width: 200px;
+    margin-top: 5px;
+}
+
+#mainNav.navbar-shrink .brand-img {
+    content: url("../Images/TB logo verde.png");
+}
+/*.navbar-collapse.collapse .brand-img {
+    content: url("../Images/TB OP5 V2.png");
+}*/
+
+@media (max-width: 991px) {
+    .footer {
+        padding-right: 5%;
+    }
+
+    .brand-img {
+        content: url("../Images/TB logo verde.png");
+    }
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (max-width: 305px) {
+    .brand-img {
+        content: url("../Images/TB logo verde solo.png");
+        max-width: 50px;
+        margin-top: 2px;
+    }
+}
