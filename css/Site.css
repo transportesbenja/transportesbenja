@@ -5,7 +5,7 @@
     width: 100%;
     background-color: whitesmoke;
     text-align: right;
-    padding-top:8px;
+    padding-top:15px;
 }
 
 .brand-img {
@@ -13,12 +13,15 @@
     margin-top: 5px;
 }
 
-#mainNav.navbar-shrink .brand-img {
-    content: url("../Images/TB logo verde.png");
+@media (min-width: 992px) {
+   #mainNav.fixed-top .brand-img {
+    content: url("../Images/TB logo blanco.png");
 }
-/*.navbar-collapse.collapse .brand-img {
-    content: url("../Images/TB OP5 V2.png");
-}*/
+
+    #mainNav.navbar-shrink .brand-img {
+    content: url("../Images/TB logo verde.png");
+} 
+}
 
 @media (max-width: 991px) {
     .footer {
@@ -28,10 +31,6 @@
     .brand-img {
         content: url("../Images/TB logo verde.png");
     }
-}
-
-@media (min-width: 992px) {
-    
 }
 
 @media (max-width: 305px) {
